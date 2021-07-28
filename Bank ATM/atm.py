@@ -149,3 +149,9 @@ def functions():
             info()
 
 
+check = "Y"
+while(check != "N"):
+    default()
+    functions()
+    check = input(
+        "Would you like to keep using the program? If so type [Y] else type [N] ")
